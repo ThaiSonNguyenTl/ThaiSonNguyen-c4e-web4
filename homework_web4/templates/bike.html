@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>adding new bike</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename = 'bike_style.css')}}">
+</head>
+<body>
+    <div id = "style">
+    <form action="" method="POST">
+        <div class = "bls">
+           <h3><label for="" class="form_label">Model</label></h3> 
+            <input type="text" name = "model"> 
+        </div>
+        <div class = "bls">
+            <h3><label for="" class="form_label">Daily fee</label></h3>
+            <input type="text" name = "daily_fee">
+        </div>
+        <div class="bls"> 
+            <h3><label for="" class="form_label">Image</label></h3>
+            <input type="url" name="image">
+        </div>
+       <div class="bls">
+           <h3><label for="" class="form_label">Year</label></h3>
+            <input type="number" name="year">
+        </div>
+        
+       <button id ="sub">submit</button> 
+    </form>
+</div>
+</body>
+</html>

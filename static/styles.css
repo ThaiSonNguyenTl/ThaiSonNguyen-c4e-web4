@@ -1,0 +1,27 @@
+#root {
+    height: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center; 
+    align-items: center
+}
+.form_label {
+    min-width: 70px;
+    display: inline-block;
+}
+#btn_login {
+    float: right;
+}
+.mb_2 {
+    margin-bottom: 16px;
+}
+
+input {
+    border-radius: 3px;
+    border:solid 1px #480b99;
+    font-size: 1.1rem;
+}
+
+html,body {
+    height: 100%;
+}

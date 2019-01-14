@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename = 'styles.css') }}">
+</head>
+<body>
+  <div id = "root" >
+    <form action="" method="post"> 
+        <div class="mb_2">
+            <label for=""  class="form_label">Username</label>  
+            <input type="username" name="username">
+        </div>
+        <div class="mb_2"> 
+                <label for="" class="form_label">Password</label>
+                <input type="password" name ="password">
+        </div>
+        
+        <button id ="btn_login">login</button>
+    </form>
+  </div>
+</body>
+</html>
